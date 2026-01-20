@@ -1,0 +1,1 @@
+// Add some tasks to the queue    pool.enqueue([] { std::cout << "Task 1 executed" << std::endl; });    pool.enqueue([] { std::cout << "Task 2 executed" << std::endl; });    pool.enqueue([] { std::cout << "Task 3 executed" << std::endl; });    // Shut
